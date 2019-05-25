@@ -5,7 +5,7 @@ jdk:
   - edge
 
 script:
-  mvn test -Dmaven.test.skip=false -fae
+  mvn verify
 
 env:
   global:

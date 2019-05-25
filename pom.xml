@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
 
     <name>${project.artifactId}</name>
+    <description>Parent POM file for Java 8+ Maven projects</description>
     <url>https://github.com/subchen/${project.name}</url>
 
     <licenses>

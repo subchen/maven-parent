@@ -188,7 +188,7 @@
 
             <properties>
                 <maven.test.skip>false</maven.test.skip>
-                <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                <autoPublish>true</autoPublish>
             </properties>
 
             <build>
@@ -257,7 +257,7 @@
                         <extensions>true</extensions>
                         <configuration>
                             <publishingServerId>central</publishingServerId>
-                            <autoPublish>${autoReleaseAfterClose}</autoPublish>
+                            <autoPublish>${autoPublish}</autoPublish>
                         </configuration>
                     </plugin>
                 </plugins>
